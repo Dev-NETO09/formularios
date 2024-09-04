@@ -11,7 +11,7 @@
     <h1>Formulários</h1>
 <form action="#" method="get">
     <label for="imputNome">Nome</label>
-    <input type="text" placeholder="Digite seu nome" id="imputNome">
+    <input type="text" required maxlength="10" placeholder="Digite seu nome" id="imputNome">
     <label for="imputSobrenome">Sobrenome</label>
     <input type="text" id="inputSobrenome">
     <br>
@@ -20,7 +20,7 @@
 
     <br>
     <p>Selecione sua Nota</p>
-    <input type="radio" name="inputnota" id="inputnota1">
+    <input type="radio" autofocus name="inputnota" id="inputnota1">
     <label for="inputnota1">1</label>
     <input type="radio" name="inputnota" id="inputnota2">
     <label for="inputnota2">2</label>
@@ -64,6 +64,23 @@
     <br>
     <input type="submit" value="Cadastrar">
     <button type="submit">Cadastrar</button>
+    <br>
+    <br>
+    <select name="" id="">
+        <option>segunda</option>
+        <option>terça</option>
+        <option>quarta</option>
+        <option>quinta</option>
+        <option>sexta</option>
+        <option>sabado</option>
+        <option>domingo</option>
+    </select>
+    <br>
+    <br>
+    <label for="textarea"></label>
+    <textarea name="" id="" cols="30" rows="10"placeholder="escreva"></textarea>
+    <br>
+    <br>
 </form>
     
 </body>
